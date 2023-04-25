@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "dallasklein.com",
+    "slug": "dallasklein.com",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
