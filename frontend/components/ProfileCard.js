@@ -29,8 +29,8 @@ const ProfileCard = () => {
         <Text style={styles.info}>🚝  Building a Personal Fitness Tracking App at Melirate.com</Text>
         <Text style={styles.info}>🏃  Fun Fact: Ran marathons in Iowa, Denmark, and Spain</Text>
       </View>
-      <Text style={styles.info}>📫  Reach me by email: dallasjklein at gmail.com  📫</Text>
-      <Text style={styles.info}>📍 Aarhus, Denmark 🔜 New York City 📍</Text>
+      <Text style={styles.info}>📫  Email: dallasjklein at gmail.com  📫</Text>
+      <Text style={styles.info}>📍 Aarhus, Denmark 🔜  New York City 📍</Text>
       <Text style={styles.link}  onPress={() => handleLinkClick(linkedinUrl)}>Linkedin</Text>
       <Text style={styles.link}  onPress={() => handleLinkClick(githubUrl)}>Github</Text>
     </View>
@@ -43,15 +43,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     padding: 20,
     backgroundColor: '#fff',
-    borderRadius: 10,
-    shadowColor: '#000',
-    shadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    shadowOpacity: 0.2,
-    shadowRadius: 1.41,
-    elevation: 2,
+    
   },
   heading: {
     fontSize: 32,
